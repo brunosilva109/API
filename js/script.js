@@ -2,7 +2,7 @@
 
 async function loadPaisData() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/brunosilva109/TrabalhoAPI/main/json/paises.json');
+        const response = await fetch('https://raw.githubusercontent.com/brunosilva109/API/refs/heads/main/json/paises.json');
         
         if (!response.ok) throw new Error("Erro ao carregar os dados dos países.");
         
