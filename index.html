@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades sobre Países</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Curiosidades sobre Países</h1>
+    </header>
+
+    <section id="pais">
+        <label for="pais-select">Escolha um país:</label>
+        <select id="pais-select">
+            <option value="">Selecione um país</option>
+        </select>
+
+        <div id="informacoes-pais">
+            <h3>Informações do País</h3>
+            <ul id="dados-pais">
+                <!-- Informações do país serão inseridas aqui -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="cep">
+        <h2>Consulta por CEP</h2>
+        <label for="cep-input">Digite o CEP:</label>
+        <input type="text" id="cep-input" placeholder="Digite o CEP">
+        <button id="cep-button">Consultar CEP</button>
+
+        <div id="informacoes-cep">
+            <h3>Informações do CEP</h3>
+            <ul id="dados-cep">
+                <!-- Informações do CEP serão inseridas aqui -->
+            </ul>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
